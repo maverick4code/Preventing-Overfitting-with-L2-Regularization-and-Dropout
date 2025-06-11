@@ -18,6 +18,16 @@ I implemented a **3-layer deep neural network** (using NumPy only — no high-le
 
 ---
 
+## 📸 Visualizing the Game Strategy
+
+Here's a visual snapshot of the kind of data setup or game dynamics our model might try to understand 👇
+
+![Goalkeeper Strategy](goalkeeper_strategy.png)
+
+The blue circles represent **French players**, and the red ones are **opponents**. The model learns from this kind of setup to suggest optimal positions, especially for the **goalkeeper**, under different threat conditions.
+
+---
+
 ## 🔍 Key Concepts I Worked On
 
 ### ✅ 1. L2 Regularization
